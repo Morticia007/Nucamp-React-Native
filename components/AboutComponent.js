@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { ScrollView } from 'react-native-gesture-handler';
 import { Card } from 'react-native-elements';
 import { Text } from 'react-native';
-
+import { PARTNERS } from '../shared/partners';
 class About extends Component {
   static navigationOptions = {
     title: 'About Us',

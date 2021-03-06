@@ -3,6 +3,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 import { Card } from 'react-native-elements';
 import { Text, View, FlatList, Image, StyleSheet } from 'react-native';
 import { PARTNERS } from '../shared/partners';
+
 const styles = StyleSheet.create({
   container: {
     paddingTop: 50,
@@ -18,13 +19,8 @@ const styles = StyleSheet.create({
 });
 const Item = ({ name, image, description }) => (
   <View>
-    <Image
-      style={styles.tinyLogo}
-      source={{
-        uri: 'https://reactnative.dev/img/tiny_logo.png',
-      }}
-    />
-     <Text>{name}</Text>
+    <Image style={styles.tinyLogo} source={{ uri: image }} />
+    <Text>{name}</Text>
     <Text>{description}</Text>
   </View>
 );

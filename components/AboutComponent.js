@@ -14,6 +14,9 @@ class About extends Component {
   static navigationOptions = {
     title: 'About Us',
   };
+
+  renderItem = ({ item }) => <Item name={item.name} />;
+
   render() {
     return (
       <ScrollView>

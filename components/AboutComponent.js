@@ -1,12 +1,31 @@
 import React, { Component } from 'react';
 import { ScrollView } from 'react-native-gesture-handler';
 import { Card } from 'react-native-elements';
-import { Text, FlatList } from 'react-native';
+import { Text, View, FlatList, Image, StyleSheet } from 'react-native';
 import { PARTNERS } from '../shared/partners';
-
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: 50,
+  },
+  tinyLogo: {
+    width: 50,
+    height: 50,
+  },
+  logo: {
+    width: 66,
+    height: 58,
+  },
+});
 const Item = ({ name, image, description }) => (
   <View>
-    <Text>{name}</Text>
+    <Image
+      style={styles.tinyLogo}
+      source={{
+        uri: 'https://reactnative.dev/img/tiny_logo.png',
+      }}
+    />
+     <Text>{name}</Text>
+    <Text>{description}</Text>
   </View>
 );
 
@@ -15,7 +34,9 @@ class About extends Component {
     title: 'About Us',
   };
 
-  renderItem = ({ item }) => <Item name={item.name} />;
+  renderItem = ({ item }) => (
+    <Item name={item.name} image={item.image} description={item.description} />
+  );
 
   render() {
     return (
@@ -32,7 +53,11 @@ class About extends Component {
           </Text>
         </Card>
         <Card title='Community Partners'>
-          <FlatList></FlatList>
+          <FlatList
+            data={PARTNERS}
+            renderItem={this.renderItem}
+            keyExtractor={(item) => item.id}
+          />
         </Card>
       </ScrollView>
     );

@@ -2,7 +2,7 @@
 //  NuCampUITests.swift
 //  NuCampUITests
 //
-//  Created by JacquelynElder on 3/3/21.
+//  Created by Jacquelyn Hagman on 3/9/21.
 //
 
 import XCTest

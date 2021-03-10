@@ -7,66 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00B1182025F0282C00017A36 /* NuCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1181F25F0282C00017A36 /* NuCampApp.swift */; };
-		00B1182225F0282C00017A36 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1182125F0282C00017A36 /* ContentView.swift */; };
-		00B1182425F0282D00017A36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B1182325F0282D00017A36 /* Assets.xcassets */; };
-		00B1182725F0282D00017A36 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00B1182625F0282D00017A36 /* Preview Assets.xcassets */; };
-		00B1182925F0282D00017A36 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1182825F0282D00017A36 /* Persistence.swift */; };
-		00B1182C25F0282D00017A36 /* NuCamp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00B1182A25F0282D00017A36 /* NuCamp.xcdatamodeld */; };
-		00B1183725F0282D00017A36 /* NuCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1183625F0282D00017A36 /* NuCampTests.swift */; };
-		00B1184225F0282E00017A36 /* NuCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00B1184125F0282E00017A36 /* NuCampUITests.swift */; };
+		2FCC619F25F86DAF00886D0A /* NuCampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC619E25F86DAF00886D0A /* NuCampApp.swift */; };
+		2FCC61A125F86DAF00886D0A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC61A025F86DAF00886D0A /* ContentView.swift */; };
+		2FCC61A325F86DB000886D0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC61A225F86DB000886D0A /* Assets.xcassets */; };
+		2FCC61A625F86DB000886D0A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FCC61A525F86DB000886D0A /* Preview Assets.xcassets */; };
+		2FCC61B125F86DB100886D0A /* NuCampTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC61B025F86DB100886D0A /* NuCampTests.swift */; };
+		2FCC61BC25F86DB100886D0A /* NuCampUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCC61BB25F86DB100886D0A /* NuCampUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		00B1183325F0282D00017A36 /* PBXContainerItemProxy */ = {
+		2FCC61AD25F86DB100886D0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00B1181425F0282C00017A36 /* Project object */;
+			containerPortal = 2FCC619325F86DAF00886D0A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00B1181B25F0282C00017A36;
+			remoteGlobalIDString = 2FCC619A25F86DAF00886D0A;
 			remoteInfo = NuCamp;
 		};
-		00B1183E25F0282E00017A36 /* PBXContainerItemProxy */ = {
+		2FCC61B825F86DB100886D0A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 00B1181425F0282C00017A36 /* Project object */;
+			containerPortal = 2FCC619325F86DAF00886D0A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 00B1181B25F0282C00017A36;
+			remoteGlobalIDString = 2FCC619A25F86DAF00886D0A;
 			remoteInfo = NuCamp;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00B1181C25F0282C00017A36 /* NuCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		00B1181F25F0282C00017A36 /* NuCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuCampApp.swift; sourceTree = "<group>"; };
-		00B1182125F0282C00017A36 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		00B1182325F0282D00017A36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00B1182625F0282D00017A36 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		00B1182825F0282D00017A36 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		00B1182B25F0282D00017A36 /* NuCamp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NuCamp.xcdatamodel; sourceTree = "<group>"; };
-		00B1182D25F0282D00017A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00B1183225F0282D00017A36 /* NuCampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuCampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00B1183625F0282D00017A36 /* NuCampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuCampTests.swift; sourceTree = "<group>"; };
-		00B1183825F0282D00017A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00B1183D25F0282D00017A36 /* NuCampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuCampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		00B1184125F0282E00017A36 /* NuCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuCampUITests.swift; sourceTree = "<group>"; };
-		00B1184325F0282E00017A36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCC619B25F86DAF00886D0A /* NuCamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NuCamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCC619E25F86DAF00886D0A /* NuCampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuCampApp.swift; sourceTree = "<group>"; };
+		2FCC61A025F86DAF00886D0A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FCC61A225F86DB000886D0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FCC61A525F86DB000886D0A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FCC61A725F86DB000886D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCC61AC25F86DB100886D0A /* NuCampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuCampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCC61B025F86DB100886D0A /* NuCampTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuCampTests.swift; sourceTree = "<group>"; };
+		2FCC61B225F86DB100886D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FCC61B725F86DB100886D0A /* NuCampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NuCampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FCC61BB25F86DB100886D0A /* NuCampUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuCampUITests.swift; sourceTree = "<group>"; };
+		2FCC61BD25F86DB100886D0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00B1181925F0282C00017A36 /* Frameworks */ = {
+		2FCC619825F86DAF00886D0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00B1182F25F0282D00017A36 /* Frameworks */ = {
+		2FCC61A925F86DB100886D0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00B1183A25F0282D00017A36 /* Frameworks */ = {
+		2FCC61B425F86DB100886D0A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,62 +72,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00B1181325F0282C00017A36 = {
+		2FCC619225F86DAF00886D0A = {
 			isa = PBXGroup;
 			children = (
-				00B1181E25F0282C00017A36 /* NuCamp */,
-				00B1183525F0282D00017A36 /* NuCampTests */,
-				00B1184025F0282E00017A36 /* NuCampUITests */,
-				00B1181D25F0282C00017A36 /* Products */,
+				2FCC619D25F86DAF00886D0A /* NuCamp */,
+				2FCC61AF25F86DB100886D0A /* NuCampTests */,
+				2FCC61BA25F86DB100886D0A /* NuCampUITests */,
+				2FCC619C25F86DAF00886D0A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		00B1181D25F0282C00017A36 /* Products */ = {
+		2FCC619C25F86DAF00886D0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				00B1181C25F0282C00017A36 /* NuCamp.app */,
-				00B1183225F0282D00017A36 /* NuCampTests.xctest */,
-				00B1183D25F0282D00017A36 /* NuCampUITests.xctest */,
+				2FCC619B25F86DAF00886D0A /* NuCamp.app */,
+				2FCC61AC25F86DB100886D0A /* NuCampTests.xctest */,
+				2FCC61B725F86DB100886D0A /* NuCampUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00B1181E25F0282C00017A36 /* NuCamp */ = {
+		2FCC619D25F86DAF00886D0A /* NuCamp */ = {
 			isa = PBXGroup;
 			children = (
-				00B1181F25F0282C00017A36 /* NuCampApp.swift */,
-				00B1182125F0282C00017A36 /* ContentView.swift */,
-				00B1182325F0282D00017A36 /* Assets.xcassets */,
-				00B1182825F0282D00017A36 /* Persistence.swift */,
-				00B1182D25F0282D00017A36 /* Info.plist */,
-				00B1182A25F0282D00017A36 /* NuCamp.xcdatamodeld */,
-				00B1182525F0282D00017A36 /* Preview Content */,
+				2FCC619E25F86DAF00886D0A /* NuCampApp.swift */,
+				2FCC61A025F86DAF00886D0A /* ContentView.swift */,
+				2FCC61A225F86DB000886D0A /* Assets.xcassets */,
+				2FCC61A725F86DB000886D0A /* Info.plist */,
+				2FCC61A425F86DB000886D0A /* Preview Content */,
 			);
 			path = NuCamp;
 			sourceTree = "<group>";
 		};
-		00B1182525F0282D00017A36 /* Preview Content */ = {
+		2FCC61A425F86DB000886D0A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				00B1182625F0282D00017A36 /* Preview Assets.xcassets */,
+				2FCC61A525F86DB000886D0A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		00B1183525F0282D00017A36 /* NuCampTests */ = {
+		2FCC61AF25F86DB100886D0A /* NuCampTests */ = {
 			isa = PBXGroup;
 			children = (
-				00B1183625F0282D00017A36 /* NuCampTests.swift */,
-				00B1183825F0282D00017A36 /* Info.plist */,
+				2FCC61B025F86DB100886D0A /* NuCampTests.swift */,
+				2FCC61B225F86DB100886D0A /* Info.plist */,
 			);
 			path = NuCampTests;
 			sourceTree = "<group>";
 		};
-		00B1184025F0282E00017A36 /* NuCampUITests */ = {
+		2FCC61BA25F86DB100886D0A /* NuCampUITests */ = {
 			isa = PBXGroup;
 			children = (
-				00B1184125F0282E00017A36 /* NuCampUITests.swift */,
-				00B1184325F0282E00017A36 /* Info.plist */,
+				2FCC61BB25F86DB100886D0A /* NuCampUITests.swift */,
+				2FCC61BD25F86DB100886D0A /* Info.plist */,
 			);
 			path = NuCampUITests;
 			sourceTree = "<group>";
@@ -139,13 +133,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00B1181B25F0282C00017A36 /* NuCamp */ = {
+		2FCC619A25F86DAF00886D0A /* NuCamp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00B1184625F0282E00017A36 /* Build configuration list for PBXNativeTarget "NuCamp" */;
+			buildConfigurationList = 2FCC61C025F86DB100886D0A /* Build configuration list for PBXNativeTarget "NuCamp" */;
 			buildPhases = (
-				00B1181825F0282C00017A36 /* Sources */,
-				00B1181925F0282C00017A36 /* Frameworks */,
-				00B1181A25F0282C00017A36 /* Resources */,
+				2FCC619725F86DAF00886D0A /* Sources */,
+				2FCC619825F86DAF00886D0A /* Frameworks */,
+				2FCC619925F86DAF00886D0A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -153,68 +147,68 @@
 			);
 			name = NuCamp;
 			productName = NuCamp;
-			productReference = 00B1181C25F0282C00017A36 /* NuCamp.app */;
+			productReference = 2FCC619B25F86DAF00886D0A /* NuCamp.app */;
 			productType = "com.apple.product-type.application";
 		};
-		00B1183125F0282D00017A36 /* NuCampTests */ = {
+		2FCC61AB25F86DB100886D0A /* NuCampTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00B1184925F0282E00017A36 /* Build configuration list for PBXNativeTarget "NuCampTests" */;
+			buildConfigurationList = 2FCC61C325F86DB100886D0A /* Build configuration list for PBXNativeTarget "NuCampTests" */;
 			buildPhases = (
-				00B1182E25F0282D00017A36 /* Sources */,
-				00B1182F25F0282D00017A36 /* Frameworks */,
-				00B1183025F0282D00017A36 /* Resources */,
+				2FCC61A825F86DB100886D0A /* Sources */,
+				2FCC61A925F86DB100886D0A /* Frameworks */,
+				2FCC61AA25F86DB100886D0A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00B1183425F0282D00017A36 /* PBXTargetDependency */,
+				2FCC61AE25F86DB100886D0A /* PBXTargetDependency */,
 			);
 			name = NuCampTests;
 			productName = NuCampTests;
-			productReference = 00B1183225F0282D00017A36 /* NuCampTests.xctest */;
+			productReference = 2FCC61AC25F86DB100886D0A /* NuCampTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		00B1183C25F0282D00017A36 /* NuCampUITests */ = {
+		2FCC61B625F86DB100886D0A /* NuCampUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00B1184C25F0282E00017A36 /* Build configuration list for PBXNativeTarget "NuCampUITests" */;
+			buildConfigurationList = 2FCC61C625F86DB100886D0A /* Build configuration list for PBXNativeTarget "NuCampUITests" */;
 			buildPhases = (
-				00B1183925F0282D00017A36 /* Sources */,
-				00B1183A25F0282D00017A36 /* Frameworks */,
-				00B1183B25F0282D00017A36 /* Resources */,
+				2FCC61B325F86DB100886D0A /* Sources */,
+				2FCC61B425F86DB100886D0A /* Frameworks */,
+				2FCC61B525F86DB100886D0A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				00B1183F25F0282E00017A36 /* PBXTargetDependency */,
+				2FCC61B925F86DB100886D0A /* PBXTargetDependency */,
 			);
 			name = NuCampUITests;
 			productName = NuCampUITests;
-			productReference = 00B1183D25F0282D00017A36 /* NuCampUITests.xctest */;
+			productReference = 2FCC61B725F86DB100886D0A /* NuCampUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		00B1181425F0282C00017A36 /* Project object */ = {
+		2FCC619325F86DAF00886D0A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					00B1181B25F0282C00017A36 = {
+					2FCC619A25F86DAF00886D0A = {
 						CreatedOnToolsVersion = 12.4;
 					};
-					00B1183125F0282D00017A36 = {
+					2FCC61AB25F86DB100886D0A = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 00B1181B25F0282C00017A36;
+						TestTargetID = 2FCC619A25F86DAF00886D0A;
 					};
-					00B1183C25F0282D00017A36 = {
+					2FCC61B625F86DB100886D0A = {
 						CreatedOnToolsVersion = 12.4;
-						TestTargetID = 00B1181B25F0282C00017A36;
+						TestTargetID = 2FCC619A25F86DAF00886D0A;
 					};
 				};
 			};
-			buildConfigurationList = 00B1181725F0282C00017A36 /* Build configuration list for PBXProject "NuCamp" */;
+			buildConfigurationList = 2FCC619625F86DAF00886D0A /* Build configuration list for PBXProject "NuCamp" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -222,36 +216,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 00B1181325F0282C00017A36;
-			productRefGroup = 00B1181D25F0282C00017A36 /* Products */;
+			mainGroup = 2FCC619225F86DAF00886D0A;
+			productRefGroup = 2FCC619C25F86DAF00886D0A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				00B1181B25F0282C00017A36 /* NuCamp */,
-				00B1183125F0282D00017A36 /* NuCampTests */,
-				00B1183C25F0282D00017A36 /* NuCampUITests */,
+				2FCC619A25F86DAF00886D0A /* NuCamp */,
+				2FCC61AB25F86DB100886D0A /* NuCampTests */,
+				2FCC61B625F86DB100886D0A /* NuCampUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		00B1181A25F0282C00017A36 /* Resources */ = {
+		2FCC619925F86DAF00886D0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B1182725F0282D00017A36 /* Preview Assets.xcassets in Resources */,
-				00B1182425F0282D00017A36 /* Assets.xcassets in Resources */,
+				2FCC61A625F86DB000886D0A /* Preview Assets.xcassets in Resources */,
+				2FCC61A325F86DB000886D0A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00B1183025F0282D00017A36 /* Resources */ = {
+		2FCC61AA25F86DB100886D0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00B1183B25F0282D00017A36 /* Resources */ = {
+		2FCC61B525F86DB100886D0A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -261,50 +255,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		00B1181825F0282C00017A36 /* Sources */ = {
+		2FCC619725F86DAF00886D0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B1182925F0282D00017A36 /* Persistence.swift in Sources */,
-				00B1182225F0282C00017A36 /* ContentView.swift in Sources */,
-				00B1182025F0282C00017A36 /* NuCampApp.swift in Sources */,
-				00B1182C25F0282D00017A36 /* NuCamp.xcdatamodeld in Sources */,
+				2FCC61A125F86DAF00886D0A /* ContentView.swift in Sources */,
+				2FCC619F25F86DAF00886D0A /* NuCampApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00B1182E25F0282D00017A36 /* Sources */ = {
+		2FCC61A825F86DB100886D0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B1183725F0282D00017A36 /* NuCampTests.swift in Sources */,
+				2FCC61B125F86DB100886D0A /* NuCampTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		00B1183925F0282D00017A36 /* Sources */ = {
+		2FCC61B325F86DB100886D0A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00B1184225F0282E00017A36 /* NuCampUITests.swift in Sources */,
+				2FCC61BC25F86DB100886D0A /* NuCampUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		00B1183425F0282D00017A36 /* PBXTargetDependency */ = {
+		2FCC61AE25F86DB100886D0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00B1181B25F0282C00017A36 /* NuCamp */;
-			targetProxy = 00B1183325F0282D00017A36 /* PBXContainerItemProxy */;
+			target = 2FCC619A25F86DAF00886D0A /* NuCamp */;
+			targetProxy = 2FCC61AD25F86DB100886D0A /* PBXContainerItemProxy */;
 		};
-		00B1183F25F0282E00017A36 /* PBXTargetDependency */ = {
+		2FCC61B925F86DB100886D0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 00B1181B25F0282C00017A36 /* NuCamp */;
-			targetProxy = 00B1183E25F0282E00017A36 /* PBXContainerItemProxy */;
+			target = 2FCC619A25F86DAF00886D0A /* NuCamp */;
+			targetProxy = 2FCC61B825F86DB100886D0A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00B1184425F0282E00017A36 /* Debug */ = {
+		2FCC61BE25F86DB100886D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -365,7 +357,7 @@
 			};
 			name = Debug;
 		};
-		00B1184525F0282E00017A36 /* Release */ = {
+		2FCC61BF25F86DB100886D0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -420,7 +412,7 @@
 			};
 			name = Release;
 		};
-		00B1184725F0282E00017A36 /* Debug */ = {
+		2FCC61C125F86DB100886D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -441,7 +433,7 @@
 			};
 			name = Debug;
 		};
-		00B1184825F0282E00017A36 /* Release */ = {
+		2FCC61C225F86DB100886D0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -462,7 +454,7 @@
 			};
 			name = Release;
 		};
-		00B1184A25F0282E00017A36 /* Debug */ = {
+		2FCC61C425F86DB100886D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -483,7 +475,7 @@
 			};
 			name = Debug;
 		};
-		00B1184B25F0282E00017A36 /* Release */ = {
+		2FCC61C525F86DB100886D0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -504,7 +496,7 @@
 			};
 			name = Release;
 		};
-		00B1184D25F0282E00017A36 /* Debug */ = {
+		2FCC61C725F86DB100886D0A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -523,7 +515,7 @@
 			};
 			name = Debug;
 		};
-		00B1184E25F0282E00017A36 /* Release */ = {
+		2FCC61C825F86DB100886D0A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -545,56 +537,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00B1181725F0282C00017A36 /* Build configuration list for PBXProject "NuCamp" */ = {
+		2FCC619625F86DAF00886D0A /* Build configuration list for PBXProject "NuCamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00B1184425F0282E00017A36 /* Debug */,
-				00B1184525F0282E00017A36 /* Release */,
+				2FCC61BE25F86DB100886D0A /* Debug */,
+				2FCC61BF25F86DB100886D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00B1184625F0282E00017A36 /* Build configuration list for PBXNativeTarget "NuCamp" */ = {
+		2FCC61C025F86DB100886D0A /* Build configuration list for PBXNativeTarget "NuCamp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00B1184725F0282E00017A36 /* Debug */,
-				00B1184825F0282E00017A36 /* Release */,
+				2FCC61C125F86DB100886D0A /* Debug */,
+				2FCC61C225F86DB100886D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00B1184925F0282E00017A36 /* Build configuration list for PBXNativeTarget "NuCampTests" */ = {
+		2FCC61C325F86DB100886D0A /* Build configuration list for PBXNativeTarget "NuCampTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00B1184A25F0282E00017A36 /* Debug */,
-				00B1184B25F0282E00017A36 /* Release */,
+				2FCC61C425F86DB100886D0A /* Debug */,
+				2FCC61C525F86DB100886D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		00B1184C25F0282E00017A36 /* Build configuration list for PBXNativeTarget "NuCampUITests" */ = {
+		2FCC61C625F86DB100886D0A /* Build configuration list for PBXNativeTarget "NuCampUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00B1184D25F0282E00017A36 /* Debug */,
-				00B1184E25F0282E00017A36 /* Release */,
+				2FCC61C725F86DB100886D0A /* Debug */,
+				2FCC61C825F86DB100886D0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		00B1182A25F0282D00017A36 /* NuCamp.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				00B1182B25F0282D00017A36 /* NuCamp.xcdatamodel */,
-			);
-			currentVersion = 00B1182B25F0282D00017A36 /* NuCamp.xcdatamodel */;
-			path = NuCamp.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = 00B1181425F0282C00017A36 /* Project object */;
+	rootObject = 2FCC619325F86DAF00886D0A /* Project object */;
 }

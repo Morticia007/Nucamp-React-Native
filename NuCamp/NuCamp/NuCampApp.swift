@@ -2,19 +2,16 @@
 //  NuCampApp.swift
 //  NuCamp
 //
-//  Created by JacquelynElder on 3/3/21.
+//  Created by Jacquelyn Hagman on 3/9/21.
 //
 
 import SwiftUI
 
 @main
 struct NuCampApp: App {
-    let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

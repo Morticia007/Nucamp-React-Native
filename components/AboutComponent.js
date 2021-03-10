@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { ScrollView } from 'react-native-gesture-handler';
-import { Card } from 'react-native-elements';
+import { Card, Avatar, ListItem } from 'react-native-elements';
 import { Text, View, FlatList, Image, StyleSheet } from 'react-native';
 import { PARTNERS } from '../shared/partners';
 
@@ -19,9 +19,18 @@ const styles = StyleSheet.create({
 });
 const Item = ({ name, image, description }) => (
   <View>
-    <Image style={styles.tinyLogo} source={{ uri: image }} />
-    <Text>{name}</Text>
-    <Text>{description}</Text>
+    <ListItem
+      title={name}
+      subtitle={description}
+      leftAvatar={
+        <Avatar
+          rounded
+          source={{
+            uri: image,
+          }}
+        />
+      }
+    />
   </View>
 );
 
@@ -36,7 +45,9 @@ class About extends Component {
 
   render() {
     return (
-      <ScrollView>
+      
+      
+        <View>
         <Card title='Our Mission'>
           <Text>
             We present a curated database of the best campsites in the vast
@@ -48,6 +59,7 @@ class About extends Component {
             reviews on campsites they have visited with each other.
           </Text>
         </Card>
+        <ScrollView>
         <Card title='Community Partners'>
           <FlatList
             data={PARTNERS}
@@ -55,7 +67,10 @@ class About extends Component {
             keyExtractor={(item) => item.id}
           />
         </Card>
-      </ScrollView>
+        </ScrollView>
+        </View>
+      
+     
     );
   }
 }
